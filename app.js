@@ -19,7 +19,7 @@ app.use(
 //Routes
 //#############################################################################
 app.get('/', (req, res)=>{
-  res.json('This is travis-ci-sample Project v2')
+  res.json('This is travis-ci-sample Project v3')
 });
 
 module.exports = app;
